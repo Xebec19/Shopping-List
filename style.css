@@ -13,6 +13,8 @@ body{
 	border-radius: 5px;
 	box-shadow: 5rem 5rem 5rem ;
 	background-color: #142E53;
+	color: white;
+	cursor: pointer;
 }
 input
 {
