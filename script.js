@@ -8,7 +8,8 @@ function Length()
 function AddValue()
 {
 	var li = document.createElement("li");	
-	li.appendChild(document.createTextNode(input.value));	
+	li.appendChild(document.createTextNode(input.value));
+	 li.classList.add("list-group-item");	
 	ul.appendChild(li);
 	input.value="";
 }
